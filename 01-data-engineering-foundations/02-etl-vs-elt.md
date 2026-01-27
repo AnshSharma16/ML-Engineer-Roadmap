@@ -59,3 +59,4 @@ Modern ML systems almost always follow **ELT**, with transformations happening c
 - Blog: ETL vs ELT Explained – Snowflake  
 - YouTube: ETL vs ELT – Seattle Data Guy  
 - Article: Why ELT is Better for ML Pipelines
+  
