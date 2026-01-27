@@ -82,7 +82,7 @@ Write a Python batch job that:
 
 ### Notebook
 Use this Colab notebook for hands-on practice:  
-👉 https://colab.research.google.com/drive/1xVWKPl4ElnH5S1fAI6D1x_G6O-xrfTPk
+👉 [https://colab.research.google.com/drive/1xVWKPl4ElnH5S1fAI6D1x_G6O-xrfTPk](https://colab.research.google.com/drive/1xVWKPl4ElnH5S1fAI6D1x_G6O-xrfTPk#scrollTo=TpJ3NXpMnGMg)
 
 ---
 
