@@ -1,16 +1,21 @@
-# CI/CD for Machine Learning Pipelines
+# CI/CD for ML Pipelines
 
-## What is CI/CD in ML?
+## Why CI/CD is needed in ML
 
-CI/CD stands for Continuous Integration and Continuous Delivery.
+ML systems require CI/CD to automatically validate:
+- Data quality
+- Training pipelines
+- Inference safety
 
-In ML systems, CI/CD ensures that:
-- Code changes are tested automatically
-- Data validation runs on every change
-- Broken pipelines never reach production
+CI ensures unsafe changes never reach production.
 
-Unlike traditional software, ML CI/CD must validate:
-- Code
-- Data
-- Models
+---
 
+## CI in This Project
+
+This project uses GitHub Actions to:
+- Install dependencies
+- Run data validation
+- Run training pipeline sanity checks
+
+CI is triggered on every push or pull request.
