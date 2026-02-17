@@ -1,4 +1,4 @@
-%%writefile data/sample.csv
 Units Sold,Unit Price,Sales Channel
 10,100,Online
 20,200,Offline
+
