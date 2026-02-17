@@ -13,3 +13,4 @@ def detect_drift(baseline_df, new_df, column, threshold=0.2):
         "mean_shift": shift,
         "drift_detected": shift > threshold
     }
+    
