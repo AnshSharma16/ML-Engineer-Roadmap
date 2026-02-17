@@ -40,4 +40,5 @@ jobs:
     # 5️⃣ Run training pipeline sanity check
     - name: Run training pipeline
       run: python src/training_pipeline.py
+      
 
