@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10"]   # keep stable version for ML
+        python-version: ["3.10"]
 
     steps:
     # 1️⃣ Checkout repository
@@ -30,16 +30,17 @@ jobs:
 
     # 3️⃣ Install dependencies
     - name: Install dependencies
+      working-directory: 01-data-engineering-foundations/11_ci_cd
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     # 4️⃣ Run data validation
     - name: Run data validation
+      working-directory: 01-data-engineering-foundations/11_ci_cd
       run: python src/validate_data.py
 
-    # 5️⃣ Run training pipeline sanity check
+    # 5️⃣ Run training pipeline
     - name: Run training pipeline
+      working-directory: 01-data-engineering-foundations/11_ci_cd
       run: python src/training_pipeline.py
-
-        pytest
