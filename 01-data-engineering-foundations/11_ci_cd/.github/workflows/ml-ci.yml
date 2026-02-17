@@ -35,10 +35,10 @@ jobs:
 
     # 4️⃣ Run data validation
     - name: Run data validation
-      run: python src/validate_data.py
+      run: python 01-data-engineering-foundations/11_ci_cd/src/validate_data.py
 
     # 5️⃣ Run training pipeline sanity check
     - name: Run training pipeline
-      run: python src/training_pipeline.py
+      run: python 01-data-engineering-foundations/11_ci_cd/src/training_pipeline.py
       
 
