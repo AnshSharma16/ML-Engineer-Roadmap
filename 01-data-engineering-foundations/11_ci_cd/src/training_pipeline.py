@@ -1,4 +1,3 @@
-%%writefile src/training_pipeline.py
 def training_pipeline():
     print("Training pipeline ran successfully")
 
